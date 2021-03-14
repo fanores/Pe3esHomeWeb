@@ -1,0 +1,93 @@
+/*
+* Applying a collor palette: https://colorhunt.co/palette/258165
+*/
+
+/* Common Section of the Web Page */
+body {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat';
+	font-weight: 900;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+	font-family: 'Montserrat';
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+.medium-heading {
+    font-family: 'Montserrat';
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* CSS for Navigation Bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-family: 'Montserrat';
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+/* Containers */
+.container-fluid {
+	padding: 7% 15%;
+}
+
+/* Sections  */
+.colored-section {
+	background-color: #383E56;
+	color: #c5d7bd;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
+/* CSS for Section Title */
+#title .container-fluid {
+	padding: 3% 15% 7%;
+	text-align: left;
+}
+
+/* CSS for Title Image */
+.title-image {
+	transform: rotate(25deg);
+	width: 60%;
+	position: absolute;
+	right: 30%;
+}
+
+/* CSS for Footer */
+.social-icon {
+	margin: 20px 10px;
+}
